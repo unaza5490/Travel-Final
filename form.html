@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header"style="background-color: #081b29;">
     <a href="index.html" class="logo">Travel Adventure.</a>
     <nav class="navbar">
         <a href="index.html" >Home</a>
@@ -23,8 +23,8 @@
       </nav>
   </header>
     <main>
-        <div class="container">
-            <h1>Plan Your Trip</h1>
+        <div class="container" style="padding-top:150px;color:black;">
+            <h1 style=" padding-bottom:30px">Plan Your Trip</h1>
             <form id="tripForm" action="form_processing.php" method="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name:</label>
@@ -46,16 +46,16 @@
                     <label for="travel_date" class="form-label">Travel Date:</label>
                     <input type="date" id="travel_date" class="form-control" required>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3" style="padding-bottom: 20px;">
                     <label for="message" class="form-label">Message:</label>
                     <textarea id="message" class="form-control" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" >Submit</button>
             </form>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Travel Adventures</p>
+    <footer style=" padding: top 300px;">
+        <p >&copy; 2024 Travel Adventures</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
